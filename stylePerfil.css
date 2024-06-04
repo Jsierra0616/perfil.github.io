@@ -1,0 +1,199 @@
+body {
+    background: rgb(235, 235, 235);
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+                                    /* Inicio de codigo Estilos del fondo fijo */
+.background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px; /* Ajustar el tamaño apropiado */
+    height: 100%; /* Altura igual al tamaño de la ventana */
+    background-color: #328bff; /* Color del fondo */
+    z-index: -1; /* Colocar detrás de todo */
+}
+
+/* Ajustar los estilos de la lista */
+.dropdown-content {
+    position: relative; /* Establecer la posición relativa */
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Estilos del menú desplegable */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+                                    /* Inicio de codigo Estilos del fondo fijo */
+img {
+    border-radius: 50%;
+    width: 150PX;
+    height: 200PX;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+
+
+
+                                    /*Inicio del codigo para el titulo superior*/
+
+.encabezado {
+    position: relative;
+    background-color: #386eb4;
+    background-size: cover; /* Ajusta la imagen al tamaño del encabezado */
+    height: 250px; /* Altura de tu encabezado */
+    color: white; /* Color del texto */
+    
+  }
+  
+  .texto-sobre-imagen {
+    position: absolute;
+    top: 50%; /* Lo posiciona en la mitad superior */
+    left: 50%; /* Lo posiciona en el centro horizontal */
+    transform: translate(-50%, -50%); /* Lo centra correctamente */
+    text-align: center; /* Alinea el texto al centro */
+    @media screen and (max-width: 200px) {
+        .responsive-paragraph {
+          font-size: 14px; /* Reducir el tamaño de fuente */
+          /*margin: 10px; /* Reducir los márgenes */
+        }
+      }
+  }
+  
+  .texto-sobre-imagen h1 {
+    font-size: 36px;
+    margin-bottom: 40px; /* Espacio entre el título y el párrafo */
+  }
+  
+  .texto-sobre-imagen p {
+    font-size: 18px;
+  }
+
+                                       /*Final del codigo para el titulo superior*/
+
+
+
+
+
+                                            /* Estilos del botón */
+.dropbtn {
+    background-color: #747474;
+    color: white;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+                                /* Estilos del contenedor del menú desplegable */
+.dropdown {
+    position: relative;
+    display: flex ;
+    width: 250px;
+    flex-direction: column;
+    margin-top: -1300px;
+    
+
+}
+
+                                        /* Estilos del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3f3f3f;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+                                    /* Estilos de las opciones del menú */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Mostrar el menú desplegable al pasar el cursor sobre el botón */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 275px;
+}
+
+/*
+.rotated-text {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin-left: 200px;
+    margin-top: 30PX;
+    font-size: 30px;
+    color: gray;
+    letter-spacing: 5px;
+
+}
+*/
+
+.datos01 {
+    
+    position: absolute;
+    top: 70%; /* Lo posiciona en la mitad superior */
+    left: 13%; /* Lo posiciona en el centro horizontal */
+    transform: translate(-50%, -50%); /* Lo centra correctamente */
+    text-align: left; /* Alinea el texto al centro */
+}
+
+.Right-paragraph {
+    float: right;
+    text-align: justify;
+    margin-top: 30px;
+    margin-right: 50px;
+    line-height: 1.5;
+    
+
+    
+    @media screen and (max-width: 200px) {
+        .responsive-paragraph {
+          font-size: 14px; /* Reducir el tamaño de fuente */
+          /*margin: 10px; /* Reducir los márgenes */
+        }
+      }
+      
+}
+
+.background-container {
+    background-color: #f75656; /* Color de fondo del contenedor */
+    width: 300px; /* Ancho del fondo */
+    height: 200px; /* Altura del fondo */
+    padding: 20px; /* Espacio alrededor del fondo */
+    margin-bottom: 20px; /* Margen inferior para separar del siguiente elemento */
+  }
+  
+  .text-container {
+    width: 250px; /* Ancho del contenedor de texto */
+  }
+
+  .Right-paragraph02 {
+    float: right; /* Esto puede ser innecesario */
+    text-align: justify;
+    margin-top: 30px;
+    margin-right: 50px;
+    line-height: 0.5;
+}
+
+
